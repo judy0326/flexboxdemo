@@ -1,0 +1,85 @@
+* {
+    margin : 0px;
+    padding : 0px;
+}
+
+.btv-nav-size {
+    font-size:2vw;
+    color:#ffffff;
+}
+
+.background-blue {
+    background-image: url("font-image/body.jpg");
+    background-size: 100% 100%;
+}
+
+.box-flexWidth  {
+    width: 100%;
+    height:100%;
+    background-color: #414141;
+    color:#ffffff;
+    padding-left: 1%;
+   /* min-width:750px;*/
+    -moz-box-flex: 10;
+    -webkit-box-flex: 10;
+    box-flex: 10;
+    display: box;
+    display: -moz-box;
+    display: -webkit-box;
+    -moz-box-orient: horizontal;
+    -webkit-box-orient: horizontal;
+    box-orient: horizontal;
+}
+
+.box-flexWidth > div:nth-child(1) {
+    padding:15px 15px;
+    -moz-box-flex: 2;
+    -webkit-box-flex: 2;
+    box-flex: 2;
+    height:100%;
+    background: url("./font-image/bestv_title.png") no-repeat;
+    background-size: 62% 84%;
+    background-position: 20% 90%;
+}
+
+.box-flexWidth > div:nth-child(2) {
+    padding:15px 15px;
+    -moz-box-flex: 7;
+    -webkit-box-flex: 7;
+    box-flex: 7;
+    height:70%;
+}
+
+.box-flexWidth > div:nth-child(3) {
+    text-align: right;
+    padding-top:16px;
+    -moz-box-flex: 0.5;
+    -webkit-box-flex: 0.5;
+    box-flex: 0.5;
+    height:100%;
+    background: url("./font-image/magnifier.png") no-repeat;
+    background-size: 70%;
+    background-position: 38% 57%;
+}
+
+.box-flexWidth > div:nth-child(4) {
+   /* text-align: right;*/
+    -moz-box-flex: 0.5;
+    -webkit-box-flex: 0.5;
+    box-flex: 0.5;
+    width: 5%;
+    background: url("./font-image/laugh.png") no-repeat;
+    background-size: 52%;
+    height:100%;
+    background-position: 28% 50%;
+}
+
+.outer {
+    width:80%;
+    margin-left:1.5%;
+    height:10%;
+}
+
+.container-scale{
+    height: 10%;
+}
