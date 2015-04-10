@@ -19,7 +19,6 @@
     background-color: #414141;
     color:#ffffff;
     padding-left: 1%;
-   /* min-width:750px;*/
     -moz-box-flex: 10;
     -webkit-box-flex: 10;
     box-flex: 10;
@@ -69,7 +68,7 @@
     box-flex: 0.5;
     width: 5%;
     background: url("./font-image/laugh.png") no-repeat;
-    background-size: 52%;
+    background-size: 44%;
     height:100%;
     background-position: 28% 50%;
 }
@@ -82,4 +81,90 @@
 
 .container-scale{
     height: 10%;
+}
+
+.container-height {
+    height: 384px;
+}
+
+.container-height-low {
+    height: 214px;
+}
+
+.container-box {
+    margin: 1.5% 1.5%;
+    width:97%;
+    height:97%;
+    display: box;
+    display: -moz-box;
+    display: -webkit-box;
+}
+
+.container-box > div:first-child {
+    width:40%;
+    height:100%;
+    padding-bottom: 2%;
+    background-color:#000000;
+}
+
+.container-box > div:last-child {
+    width:54%;
+    height:100%
+}
+
+.inner-box{
+    height:100%;
+    display: box;
+    display: -moz-box;
+    display: -webkit-box;
+}
+
+.inner-box-low > div {
+    height:100%;
+    padding-left: 0.5%;
+}
+
+.inner-box > div {
+    height:100%;
+    padding-left: 1%;
+}
+
+.container-box > div:first-child img{
+    width:100%;
+    height:90%;
+}
+
+.container-inner {
+    float: right;
+    height:10%;
+    width: 11%;
+}
+
+.row div:first-child span{
+    -webkit-animation: neon1 1.5s ease-in-out infinite alternate;
+    -moz-animation: neon1 1.5s ease-in-out infinite alternate;
+    animation: neon1 1.5s ease-in-out infinite alternate;
+}
+
+@-webkit-keyframes neon1 {
+    from {
+        text-shadow: 0 0 10px #fff,
+        0 0 20px  #fff,
+        0 0 30px  #fff,
+        0 0 40px  #FF1177,
+        0 0 70px  #FF1177,
+        0 0 80px  #FF1177,
+        0 0 100px #FF1177,
+        0 0 150px #FF1177;
+    }
+    to {
+        text-shadow: 0 0 5px #fff,
+        0 0 10px #fff,
+        0 0 15px #fff,
+        0 0 20px #FF1177,
+        0 0 35px #FF1177,
+        0 0 40px #FF1177,
+        0 0 50px #FF1177,
+        0 0 75px #FF1177;
+    }
 }
