@@ -13,7 +13,7 @@
 }
 
 .headers {
-    height:8.5%;
+    height:7.5%;
     position: absolute;
     top:0%;
     width:100%;
@@ -92,7 +92,6 @@
 .outer {
     width:80%;
     margin-left:1.5%;
-    height:10%;
     position:absolute;
     top: 8.5%;
 }
@@ -104,14 +103,22 @@
 .container-height {
     height:36%;
     position:absolute;
-    top:13%;
+    top:12%;
     width:100%;
 }
 
 .container-height-low {
-    height: 30%;
-    position:absolute;
-    top:56%;
+    height: 20%;
+    position: absolute;
+    top: 48%;
+    width: 100%;
+}
+
+.container-height-lower {
+    height: 20%;
+    position: absolute;
+    top: 68.5%;
+    width: 100%;
 }
 
 .container-box {
@@ -135,7 +142,6 @@
     height:100%
 }
 
-
 .container-below {
     margin: 1.5% 1.5%;
     width:97%;
@@ -146,9 +152,8 @@
 }
 
 .container-below > div:first-child {
-    width:38%;
+    width:40%;
     height:100%;
-
 }
 
 img {
@@ -157,8 +162,8 @@ img {
 }
 
 .container-below > div:last-child {
-    width:56%;
-    height:100%
+    width: 60%;
+    height: 100%;
 }
 .inner-box{
     height:100%;
@@ -174,7 +179,7 @@ img {
 }
 
 .inner-box-low{
-    padding-left: 0.7%;
+    padding-left: 0.2%;
     height:100%;
     display: box;
     display: -moz-box;
@@ -188,6 +193,16 @@ img {
     display: -webkit-box;
 }
 
+.inner-box-width > div:first-child{
+    width: 50%;
+    height: 100%;
+}
+
+.inner-box-width > div:last-child{
+    width: 50%;
+    height: 100%;
+}
+
 .inner-box-width > div:last-child {
     padding-left: 1.5%;
 }
@@ -195,6 +210,7 @@ img {
 .inner-box-low > div {
     height: 100%;
     margin-left: 0.5%;
+    width:19.5%;
 }
 
 .inner-box > div {
@@ -202,8 +218,7 @@ img {
     margin-left: 1%;
 }
 
-.container-box > div:first-child img{
-    width:100%;
+.container-box > div:first-child > div:last-child{
     height:90%;
 }
 
@@ -261,10 +276,22 @@ img {
     position: relative;
     z-index: 3;
     width: 500%;
-    height: 72%;
-    margin-top: -61.2%;
+    height: 74%;
+    margin-top: -62.2%;
      transform: scale(0.2);
     margin-left: -200%;
+    background: url("font-image/ad_top.png");
+    background-size: 100%;
+}
+
+.bottomBlue-low {
+    position: relative;
+    z-index: 3;
+    width: 334%;
+    height: 74%;
+    margin-top: -28.3%;
+    transform: scale(0.3);
+    margin-left: -117%;
     background: url("font-image/ad_top.png");
     background-size: 100%;
 }
@@ -282,6 +309,28 @@ img {
     width: 85%;
     color: white;
     font-weight: 500;
+}
+
+.fontClass-lower {
+    position: relative;
+    text-align: center;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    overflow: hidden;
+    font-size: 5vw;
+    font-family: "microsoft yahei";
+    top: 10%;
+    left: 8%;
+    width: 85%;
+    color: white;
+    font-weight: 500;
+}
+
+.footers {
+    height: 8%;
+    position: absolute;
+    top: 92%;
+    width: 100%;
 }
 
 
